@@ -104,7 +104,7 @@ bash
 
 git clone https://github.com/YeswanthYadav04/CampusEase
 
-cd campus-bot
+cd CampusEase
 
 
 
