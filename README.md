@@ -102,7 +102,7 @@ Campus Bot revolutionizes the student experience by providing instant access to 
 
 bash
 
-git clone https://github.com/YeswanthYadav04/campus-bot.git
+git clone https://github.com/YeswanthYadav04/CampusEase
 
 cd campus-bot
 
