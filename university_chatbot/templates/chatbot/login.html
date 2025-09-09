@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notebook Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Kalam', cursive;
+      background: 
+        /* Subtle texture overlay */
+        radial-gradient(circle at 20% 50%, rgba(255,255,255,0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255,255,255,0.2) 0%, transparent 50%),
+        /* Main gradient background like in image */
+        linear-gradient(135deg, #e0f2fe 0%, #bae6fd 30%, #ddd6fe 70%, #e0e7ff 100%);
+      position: relative;
+      overflow: hidden;
+      min-height: 100vh;
+    }
+
+    /* Spiral Holes */
+    .holes {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      z-index: 1;
+    }
+    .hole {
+      width: 18px;
+      height: 18px;
+      background: radial-gradient(circle, #1e293b 60%, #64748b 100%);
+      border-radius: 50%;
+      box-shadow: inset 2px 2px 4px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .hole::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 6px;
+      height: 6px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50%;
+    }
+
+    /* Login Container */
+    .login-container {
+      background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.8);
+      box-shadow: 
+        0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+    /* Student Badge */
+    .student-badge {
+      background: linear-gradient(135deg, #fef08a 0%, #fde047 100%);
+      color: #78350f;
+      border: 2px solid #eab308;
+      padding: 15px 25px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-align: center;
+      transform: rotate(-1deg);
+      box-shadow: 3px 3px 8px rgba(0,0,0,0.15);
+      position: relative;
+      margin: 0 auto 30px;
+      width: fit-content;
+    }
+    .student-badge::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30px;
+      height: 15px;
+      background: rgba(0,0,0,0.1);
+      border-radius: 50%;
+    }
+
+    /* Form Elements */
+    .form-input {
+      background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+      border: 2px solid #e2e8f0;
+      transition: all 0.3s ease;
+      font-family: 'Kalam', cursive;
+      font-size: 1rem;
+    }
+    .form-input:focus {
+      border-color: #3b82f6;
+      box-shadow: 
+        0 0 0 3px rgba(59, 130, 246, 0.1),
+        0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      transform: translateY(-1px);
+    }
+
+    /* Login Button */
+    .login-btn {
+      background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+      transition: all 0.3s ease;
+      font-family: 'Caveat', cursive;
+      font-size: 1.3rem;
+      font-weight: 700;
+      position: relative;
+      overflow: hidden;
+    }
+    .login-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+    }
+
+    /* Admin Link Button */
+    .admin-link {
+      background: linear-gradient(135deg, #dbeafe 0%, #93c5fd 100%);
+      color: #1e3a8a;
+      border: 2px solid #3b82f6;
+      padding: 8px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transform: rotate(1deg);
+      transition: all 0.3s ease;
+      display: inline-block;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+    .admin-link:hover {
+      transform: scale(1.05) rotate(0deg);
+      box-shadow: 4px 4px 12px rgba(0,0,0,0.15);
+      text-decoration: none;
+      color: #1e3a8a;
+    }
+
+    /* Floating Doodles */
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      25% { transform: translateY(-15px) rotate(5deg); }
+      50% { transform: translateY(-8px) rotate(-3deg); }
+      75% { transform: translateY(-12px) rotate(3deg); }
+    }
+    .doodle {
+      position: absolute;
+      font-size: 2.5rem;
+      animation: float 4s ease-in-out infinite;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1));
+    }
+    .doodle:nth-child(1) { top: 15%; left: 8%; animation-delay: 0s; }
+    .doodle:nth-child(2) { top: 25%; right: 12%; animation-delay: 1s; }
+    .doodle:nth-child(3) { bottom: 25%; left: 15%; animation-delay: 2s; }
+    .doodle:nth-child(4) { bottom: 15%; right: 18%; animation-delay: 1.5s; }
+
+    /* Title */
+    .title {
+      font-family: 'Caveat', cursive;
+    }
+
+    /* Label styling */
+    .form-label {
+      font-family: 'Caveat', cursive;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 8px;
+      display: block;
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+
+  <!-- Spiral Holes -->
+  <div class="holes">
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+  </div>
+
+  <!-- Floating Doodles -->
+  <div class="doodle">📝</div>
+  <div class="doodle">🎓</div>
+  <div class="doodle">📚</div>
+ 
+  
+   <!-- Login Box -->
+  <div class="login-container rounded-2xl p-10 w-full max-w-md relative z-10 mx-4">
+    <div class="text-center mb-8">
+      <h1 class="title text-4xl font-bold text-gray-800 mb-2">Welcome!</h1>
+      <div class="student-badge">
+        <div class="text-xl">👨‍🎓</div>
+        <div>Student Login</div>
+      </div>
+      <p class="text-gray-600 text-lg">Enter your credentials to access</p>
+    </div>
+    
+    {% if error %}
+    <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    <form method="post">
+      {% csrf_token %}
+      <!-- Username -->
+      <div class="mb-6">
+        <label class="form-label" for="username">📧 Username</label>
+        <input type="text" 
+               id="username"
+               name="username"
+               placeholder="Enter your username"
+               class="form-input w-full p-4 rounded-xl focus:outline-none"
+               required>
+      </div>
+
+      <!-- Password -->
+      <div class="mb-8">
+        <label class="form-label" for="password">🔐 Password</label>
+        <input type="password" 
+               id="password"
+               name="password"
+               placeholder="Enter your password"
+               class="form-input w-full p-4 rounded-xl focus:outline-none"
+               required>
+      </div>
+
+      <!-- Login Button -->
+      <button type="submit" class="login-btn w-full text-white py-4 rounded-xl relative overflow-hidden">
+        <span class="relative z-10">🚀 Login</span>
+      </button>
+    </form>
+
+    <!-- Admin Login Link -->
+    <div class="text-center mt-6">
+      <p class="text-gray-600 mb-3">Need admin access?</p>
+      <a href="{% url 'admin_login' %}" class="admin-link">
+        👨‍💼 Admin Login
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

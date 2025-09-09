@@ -1,0 +1,151 @@
+{
+  "Timetable": {
+    "monday": {
+      "09:30-10:25": { "activity": "CODE CHEF" },
+      "10:25-11:20": { "activity": "CODE CHEF" },
+      "11:20-12:20": { "activity": "CODE CHEF" },
+      "12:20-01:15": { "activity": "CODE CHEF" },
+      "01:15-02:10": { "activity": "CODE CHEF" },
+      "02:10-02:30": { "activity": "RECESS" },
+      "02:30-03:25": { "activity": "CODE CHEF" },
+      "03:25-04:20": { "activity": "CODE CHEF" }
+    },
+    "tuesday": {
+      "09:30-10:25": { 
+        "subject": "Software Engineering", 
+        "faculty": "Keerthana S", 
+        "email": "keerthana@paruluniversity.ac.in", 
+        "classroom": "D-402" 
+      },
+      "10:25-11:20": { 
+        "subject": "Design and Analysis of Algorithms", 
+        "faculty": "Gaurav Soni", 
+        "email": "gaurav.soni@paruluniversity.ac.in", 
+        "classroom": "D-402" 
+      },
+      "12:20-01:15": { 
+        "subject": "Data Visualization & Data Analytics", 
+        "faculty": "Anand Javdekar", 
+        "email": "anand.javdekar@paruluniversity.ac.in", 
+        "classroom": "D-402" 
+      },
+      "01:15-02:10": { 
+        "subject": "Professionalism & Corporate Ethics", 
+        "faculty": "Pratima Chaudhari", 
+        "email": "pratima.chaudhari@paruluniversity.ac.in", 
+        "classroom": "D-402" 
+      },
+      "02:10-02:30": { "activity": "RECESS" },
+      "03:25-04:20": { 
+        "subject": "Software Engineering", 
+        "faculty": "Keerthana S", 
+        "email": "keerthana@paruluniversity.ac.in", 
+        "classroom": "D-303" 
+      }
+    },
+    "wednesday": {
+      "09:30-10:25": { "activity": "LIBRARY/SELF STUDY" },
+      "10:25-11:20": { 
+        "subject": "Design and Analysis of Algorithms", 
+        "faculty": "Gaurav Soni", 
+        "email": "gaurav.soni@paruluniversity.ac.in", 
+        "classroom": "D-402" 
+      },
+      "02:10-02:30": { "activity": "RECESS" },
+      "02:30-03:25": { 
+        "subject": "Design and Analysis of Algorithms", 
+        "faculty": "Gaurav Soni", 
+        "email": "gaurav.soni@paruluniversity.ac.in", 
+        "classroom": "D-303" 
+      }
+    },
+    "thursday": {
+      "09:30-10:25": { "activity": "LIBRARY/SELF STUDY" },
+      "12:20-01:15": { 
+        "subject": "Enterprise Programming", 
+        "faculty": "Gauri Nandas Upreti", 
+        "email": "gauri.upreti@paruluniversity.ac.in", 
+        "classroom": "D-402" 
+      },
+      "01:15-02:10": { 
+        "subject": "Software Engineering", 
+        "faculty": "Keerthana S", 
+        "email": "keerthana@paruluniversity.ac.in", 
+        "classroom": "D-402" 
+      },
+      "02:10-02:30": { "activity": "RECESS" },
+      "02:30-03:25": { 
+        "subject": "Design and Analysis of Algorithms", 
+        "faculty": "Gaurav Soni", 
+        "email": "gaurav.soni@paruluniversity.ac.in", 
+        "classroom": "D-320" 
+      }
+    },
+    "friday": {
+      "09:30-10:25": { 
+        "subject": "Enterprise Programming", 
+        "faculty": "Gauri Nandas Upreti", 
+        "email": "gauri.upreti@paruluniversity.ac.in", 
+        "classroom": "D-216" 
+      },
+      "10:25-11:20": { 
+        "subject": "Software Engineering", 
+        "faculty": "Keerthana S", 
+        "email": "keerthana@paruluniversity.ac.in", 
+        "classroom": "D-216" 
+      },
+      "12:20-01:15": { 
+        "subject": "Data Visualization & Data Analytics", 
+        "faculty": "Anand Javdekar", 
+        "email": "anand.javdekar@paruluniversity.ac.in", 
+        "classroom": "D-313" 
+      },
+      "02:10-02:30": { "activity": "RECESS" },
+      "02:30-03:25": { 
+        "subject": "Data Visualization & Data Analytics", 
+        "faculty": "Anand Javdekar", 
+        "email": "anand.javdekar@paruluniversity.ac.in", 
+        "classroom": "D-216" 
+      },
+      "03:25-04:20": { 
+        "subject": "Theory of Computation", 
+        "faculty": "Nidhi Patel", 
+        "email": "nidhi.patel@paruluniversity.ac.in", 
+        "classroom": "D-216" 
+      }
+    },
+    "saturday": {
+      "09:30-10:25": { 
+        "subject": "Design and Analysis of Algorithms", 
+        "faculty": "Gaurav Soni", 
+        "email": "gaurav.soni@paruluniversity.ac.in", 
+        "classroom": "D-302" 
+      },
+      "10:25-11:20": { 
+        "subject": "Theory of Computation", 
+        "faculty": "Nidhi Patel", 
+        "email": "nidhi.patel@paruluniversity.ac.in", 
+        "classroom": "D-302" 
+      },
+      "12:20-01:15": { 
+        "subject": "AWS Fundamentals", 
+        "faculty": "Dr. Nithya Arumugam", 
+        "email": "nithya.arumugam@paruluniversity.ac.in", 
+        "classroom": "D-309" 
+      },
+      "02:10-02:30": { "activity": "RECESS" },
+      "02:30-03:25": { 
+        "subject": "Data Visualization & Data Analytics", 
+        "faculty": "Anand Javdekar", 
+        "email": "anand.javdekar@paruluniversity.ac.in", 
+        "classroom": "D-216" 
+      },
+      "03:25-04:20": { 
+        "subject": "Theory of Computation", 
+        "faculty": "Nidhi Patel", 
+        "email": "nidhi.patel@paruluniversity.ac.in", 
+        "classroom": "D-216" 
+      }
+    }
+  }
+}

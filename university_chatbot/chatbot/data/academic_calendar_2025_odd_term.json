@@ -1,0 +1,368 @@
+{
+  "Academic Calendar": {
+    "Term": "Odd Term 2025-26",
+    "Programs": [
+      "B.Tech",
+      "Diploma Engineering",
+      "M.Tech",
+      "IEDP"
+    ],
+    "Semester": [
+      "III",
+      "V",
+      "VII"
+    ],
+    "Daywise Schedule": {
+      "2025-06-09": [
+        "Teaching"
+      ],
+      "2025-06-10": [
+        "Teaching"
+      ],
+      "2025-06-11": [
+        "Teaching"
+      ],
+      "2025-06-12": [
+        "Teaching"
+      ],
+      "2025-06-13": [
+        "Teaching"
+      ],
+      "2025-06-14": [
+        "Teaching"
+      ],
+      "2025-06-15": [
+        "Teaching"
+      ],
+      "2025-06-16": [
+        "Teaching"
+      ],
+      "2025-06-17": [
+        "Teaching"
+      ],
+      "2025-06-18": [
+        "Teaching"
+      ],
+      "2025-06-19": [
+        "Teaching"
+      ],
+      "2025-06-20": [
+        "Teaching"
+      ],
+      "2025-06-21": [
+        "Teaching"
+      ],
+      "2025-06-22": [
+        "Teaching"
+      ],
+      "2025-06-23": [
+        "Teaching"
+      ],
+      "2025-06-24": [
+        "Teaching"
+      ],
+      "2025-06-25": [
+        "Teaching"
+      ],
+      "2025-06-26": [
+        "Teaching"
+      ],
+      "2025-06-27": [
+        "Teaching"
+      ],
+      "2025-06-28": [
+        "Teaching"
+      ],
+      "2025-06-29": [
+        "Teaching"
+      ],
+      "2025-06-30": [
+        "Weekly 1"
+      ],
+      "2025-07-01": [
+        "Weekly 1"
+      ],
+      "2025-07-02": [
+        "Weekly 1"
+      ],
+      "2025-07-03": [
+        "Weekly 1"
+      ],
+      "2025-07-04": [
+        "Weekly 1"
+      ],
+      "2025-07-05": [
+        "Weekly 1"
+      ],
+      "2025-07-07": [
+        "Weekly 2"
+      ],
+      "2025-07-08": [
+        "Weekly 2"
+      ],
+      "2025-07-09": [
+        "Weekly 2"
+      ],
+      "2025-07-10": [
+        "Weekly 2"
+      ],
+      "2025-07-11": [
+        "Weekly 2"
+      ],
+      "2025-07-12": [
+        "Weekly 2"
+      ],
+      "2025-07-14": [
+        "Weekly 3"
+      ],
+      "2025-07-15": [
+        "Weekly 3"
+      ],
+      "2025-07-16": [
+        "Weekly 3"
+      ],
+      "2025-07-17": [
+        "Weekly 3"
+      ],
+      "2025-07-18": [
+        "Weekly 3"
+      ],
+      "2025-07-19": [
+        "Weekly 3"
+      ],
+      "2025-07-21": [
+        "Weekly 4"
+      ],
+      "2025-07-22": [
+        "Weekly 4"
+      ],
+      "2025-07-23": [
+        "Weekly 4"
+      ],
+      "2025-07-24": [
+        "Weekly 4"
+      ],
+      "2025-07-25": [
+        "Weekly 4"
+      ],
+      "2025-07-26": [
+        "Weekly 4"
+      ],
+      "2025-07-28": [
+        "Weekly 5",
+        "Mid Sem Exam Start"
+      ],
+      "2025-07-29": [
+        "Weekly 5",
+        "Mid Sem Exam Start"
+      ],
+      "2025-07-30": [
+        "Weekly 5",
+        "Mid Sem Exam Start"
+      ],
+      "2025-07-31": [
+        "Weekly 5",
+        "Mid Sem Exam Start"
+      ],
+      "2025-08-01": [
+        "Weekly 5",
+        "Mid Sem Exam Start"
+      ],
+      "2025-08-02": [
+        "Weekly 5",
+        "Mid Sem Exam Start"
+      ],
+      "2025-08-04": [
+        "Mid Sem Exam"
+      ],
+      "2025-08-05": [
+        "Mid Sem Exam"
+      ],
+      "2025-08-06": [
+        "Mid Sem Exam"
+      ],
+      "2025-08-07": [
+        "Mid Sem Exam"
+      ],
+      "2025-08-08": [
+        "Mid Sem Exam"
+      ],
+      "2025-08-09": [
+        "Raksha Bandhan"
+      ],
+      "2025-08-15": [
+        "Independence Day"
+      ],
+      "2025-08-16": [
+        "Janmashtami"
+      ],
+      "2025-08-30": [
+        "Samvatsari"
+      ],
+      "2025-09-01": [
+        "Remedial Mid Term Exam of Previous Sem"
+      ],
+      "2025-09-02": [
+        "Remedial Mid Term Exam of Previous Sem"
+      ],
+      "2025-09-03": [
+        "Remedial Mid Term Exam of Previous Sem"
+      ],
+      "2025-09-04": [
+        "Remedial Mid Term Exam of Previous Sem"
+      ],
+      "2025-09-05": [
+        "Remedial Mid Term Exam of Previous Sem"
+      ],
+      "2025-09-29": [
+        "T/W Submission"
+      ],
+      "2025-09-30": [
+        "T/W Submission"
+      ],
+      "2025-10-01": [
+        "T/W Submission"
+      ],
+      "2025-10-02": [
+        "Gandhi Jayanti"
+      ],
+      "2025-10-03": [
+        "T/W Submission"
+      ],
+      "2025-10-04": [
+        "T/W Submission"
+      ],
+      "2025-10-07": [
+        "Marks Locking by HOD"
+      ],
+      "2025-10-08": [
+        "Marks Locking by Principal & Dean"
+      ],
+      "2025-10-11": [
+        "Teaching End"
+      ],
+      "2025-10-13": [
+        "End Sem Practical"
+      ],
+      "2025-10-14": [
+        "End Sem Practical"
+      ],
+      "2025-10-15": [
+        "End Sem Practical"
+      ],
+      "2025-10-16": [
+        "End Sem Practical"
+      ],
+      "2025-10-17": [
+        "End Sem Practical"
+      ],
+      "2025-10-19": [
+        "Diwali Vacation"
+      ],
+      "2025-10-20": [
+        "Diwali Vacation"
+      ],
+      "2025-10-21": [
+        "Diwali Vacation"
+      ],
+      "2025-10-22": [
+        "Diwali Vacation"
+      ],
+      "2025-10-23": [
+        "Diwali Vacation"
+      ],
+      "2025-10-24": [
+        "Diwali Vacation"
+      ],
+      "2025-10-25": [
+        "Diwali Vacation"
+      ],
+      "2025-10-26": [
+        "Diwali Vacation"
+      ],
+      "2025-10-27": [
+        "Diwali Vacation"
+      ],
+      "2025-10-28": [
+        "Diwali Vacation"
+      ],
+      "2025-10-29": [
+        "Diwali Vacation"
+      ],
+      "2025-10-30": [
+        "Diwali Vacation"
+      ],
+      "2025-10-31": [
+        "Diwali Vacation"
+      ],
+      "2025-11-01": [
+        "Diwali Vacation"
+      ],
+      "2025-11-02": [
+        "Diwali Vacation"
+      ],
+      "2025-11-03": [
+        "End Sem Practical (continued)"
+      ],
+      "2025-11-04": [
+        "End Sem Practical (continued)"
+      ],
+      "2025-11-05": [
+        "End Sem Practical (continued)"
+      ],
+      "2025-11-06": [
+        "End Sem Practical (continued)"
+      ],
+      "2025-11-07": [
+        "End Sem Practical (continued)"
+      ],
+      "2025-11-08": [
+        "End Sem Practical (continued)"
+      ],
+      "2025-11-10": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-11": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-12": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-13": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-14": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-15": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-16": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-17": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-18": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-19": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-20": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-21": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-22": [
+        "End Sem Theory Exam"
+      ],
+      "2025-11-24": [
+        "End Sem Supplementary Exam",
+        "New Term (Even) Commencement"
+      ]
+    },
+    "Dean": "Dean - Faculty of Engineering & Technology"
+  }
+}
